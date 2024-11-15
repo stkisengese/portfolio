@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-brand">
-        <Link to="/">Your Name</Link>
+        <Link to="/">Stephen Kisengese</Link>
       </div>
       <button className="navbar-toggle" onClick={() => setIsOpen(!isOpen)}>
         <span></span>
