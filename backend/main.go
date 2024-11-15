@@ -96,7 +96,7 @@ func getSkills(w http.ResponseWriter, r *http.Request) {
 
 func getAbout(w http.ResponseWriter, r *http.Request) {
 	about := About{
-		Name:        "Your Name",
+		Name:        "Stephen Kisengese",
 		Role:        "Full Stack Developer",
 		Description: "Passionate developer with experience in Go and React",
 		ImageURL:    "/images/profile.jpg",
