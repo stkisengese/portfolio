@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <section className="home">
       <div className="hero">
-        <img src={about.imageUrl} alt={about.name} className="profile-image" />
+        <img src="/profile_pic.jpeg" alt={about.name} className="profile-image" />
         <h1>{about.name}</h1>
         <h2>{about.role}</h2>
         <p>{about.description}</p>
